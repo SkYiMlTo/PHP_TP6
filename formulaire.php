@@ -7,14 +7,13 @@ class formulaire
         echo "<form method='".$meth."' action='".$url."'>";
     }
     public function ajouterzonetexte($text, $name){
-        echo "<label for='".$text."'></label><input type=\"text\" name=\"$name\" />";
+        echo $text."<input type=\"text\" name=\"$name\" /><br /><br />";
     }
     public function ajouterbouton(){
-        echo "<input type=\"submit\" value=\"Valider\" />";
+        echo "<input type=\"submit\" value=\"Valider\" /><br /><br />";
     }
     public function getform() {
         echo "</form>";
     }
 }
-
 ?>
