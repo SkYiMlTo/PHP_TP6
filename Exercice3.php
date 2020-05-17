@@ -14,7 +14,7 @@ Madame : <input type=\"radio\" name=\"sexeEx3\" value=\"Madame\" /> <br />
    Age : <select name=\"valueAge\" id=\"ageSelected\">
     <option value=\"\">--Age--</option>
     <option value=\"0-20\">0-20</option>
-    <option value=\"20-40\">24-40</option>
+    <option value=\"21-40\">21-40</option>
     <option value=\"41-60\">41-60</option>
     <option value=\"60+\">60 et +</option>
 </select> <br /><br />
